@@ -1,0 +1,5 @@
+tasks:
+  - before: export GO111MODULE=on
+ports:
+  - port: 9000
+workspaceLocation: "go/src/github.com/battlesnakeio/starter-snake-go"
