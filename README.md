@@ -9,7 +9,7 @@ Visit [https://github.com/battlesnakeio/community/blob/master/starter-snakes.md]
 Gitpod lets you get started in a fully setup and sandboxed environment.
 
 1. click the Gitpod button below. <br>
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/battlesnakeio/starter-snake-go)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/etetland-va/starter-snake-go)
 1. You will need to sign in with a GitHub account, and it will create an online workspace for you.
 1. Run `make run` in the terminal. 
 1. When it notifies you that the app is running on port 9000, click on `Open Browser`.
