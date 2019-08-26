@@ -25,8 +25,10 @@ If you want to save your changes, you'll need to push them to your own repo.
 
 1. Push to your new repo (fill in `<your-username>` with your GitHub username)
 ```
-git clone https://github.com/battlesnakeio/starter-snake-go $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
-cd $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
+mkdir -p $GOPATH/go/src/github.com/battlesnakeio
+cd $GOPATH/go/src/github.com/battlesnakeio
+git clone https://github.com/battlesnakeio/starter-snake-go 
+cd starter-snake-go
 git remote set-url origin https://github.com/<your-username>/starter-snake-go
 git push
 ```
