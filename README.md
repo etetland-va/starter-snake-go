@@ -43,10 +43,8 @@ make test
 
 You'll need:
   1. A working Go development environment ([guide](https://golang.org/doc/install)).
-  1. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction)
-
+  1. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction) <br>
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 1. [Fork](#fork-this-repo) or clone this repo 
 1. Create a new Go Heroku app using Go buildpack.<br>
 `
