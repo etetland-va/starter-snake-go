@@ -15,7 +15,7 @@ Gitpod lets you get started in a fully setup and sandboxed environment.
 1. When it notifies you that the app is running on port 9000, click on `Open Browser`.
       - The url that it goes to is your snake's url (enter it in when you add your snake to play.battlesnake.io).
 
-IMPORTANT: When the tournament starts, make sure that your workspace is active! It times out after 30 minutes (10 minutes if the tab is closed), and your snake will be turned off!
+IMPORTANT: When the tournament starts, make sure that your workspace is active! It times out after 30 minutes (10 minutes if the tab is closed), and your snake will be turned off! It will turn on again when you return to the workspace.
 
 ### Fork this repo
 
