@@ -4,27 +4,13 @@ A simple [Battlesnake AI](http://battlesnake.io) written in Go.
 
 Visit [https://github.com/battlesnakeio/community/blob/master/starter-snakes.md](https://github.com/battlesnakeio/community/blob/master/starter-snakes.md) for API documentation and instructions for running your AI.
 
-To get started, you'll need:
-  1. A working Go development environment ([guide](https://golang.org/doc/install)).
-  1. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction)
+To get started, click the button below. You will need to sign in with a GitHub account, and it will create an online workspace for you.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ert485/starter-snake-go)
 
-### Running the AI locally
+After that, run `make run` in the terminal. When it notifies you that the app is running on port 9000, click on `Open Browser`. The url that it goes to is your snake's url (enter it in when you add your snake to play.battlesnake.io).
 
-1. Clone repo to your development environment:
-```
-git clone https://github.com/battlesnakeio/starter-snake-go.git $GOPATH/github.com/battlesnakeio/starter-snake-go
-cd $GOPATH/github.com/battlesnakeio/starter-snake-go
-```
-
-1. Compile and run the server with:
-
-```
-make run
-```
-
-1. Test the client in your browser: [http://127.0.0.1:9000/start](http://127.0.0.1:9000/start)
+When the tournament starts, make sure that your workspace is active! It times out after 30 minutes (10 minutes if the tab is closed), and your snake will be turned off!
 
 ### Fork this repo
 
@@ -32,6 +18,8 @@ make run
 
 1. Push and Pull from your new repo
 ```
+git clone https://github.com/battlesnakeio/starter-snake-go $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
+cd $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
 git remote set-url origin https://github.com/<your-username>/starter-snake-go
 ```
 
@@ -41,9 +29,16 @@ git remote set-url origin https://github.com/<your-username>/starter-snake-go
 make test
 ```
 
-Note: if you're missing any packages, use `Make get`.
+### Deploying to Heroku instead of Gitpod
 
-### Deploying to Heroku
+You'll need:
+  1. A working Go development environment ([guide](https://golang.org/doc/install)).
+  1. Read [Heroku's guide to deploying Go apps](https://devcenter.heroku.com/articles/getting-started-with-go#introduction)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
+Note: if you're missing any packages, use `make get`.
 
 1) Create a new Go Heroku app using Go buildpack.
 ```
