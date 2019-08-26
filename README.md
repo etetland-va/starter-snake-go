@@ -4,7 +4,10 @@ A simple [Battlesnake AI](http://battlesnake.io) written in Go.
 
 Visit [https://github.com/battlesnakeio/community/blob/master/starter-snakes.md](https://github.com/battlesnakeio/community/blob/master/starter-snakes.md) for API documentation and instructions for running your AI.
 
-### Getting Started
+### Developing and Deploying with Gitpod
+
+Gitpod lets you get started in a fully setup and sandboxed environment.
+
 1. click the Gitpod button below. <br>
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/battlesnakeio/starter-snake-go)
 1. You will need to sign in with a GitHub account, and it will create an online workspace for you.
@@ -16,13 +19,16 @@ IMPORTANT: When the tournament starts, make sure that your workspace is active! 
 
 ### Fork this repo
 
+If you want to save your changes, you'll need to push them to your own repo. 
+
 1. [Fork this repo](https://github.com/battlesnakeio/starter-snake-go/fork).
 
-1. Push and Pull from your new repo
+1. Push to your new repo (fill in `<your-username>` with your GitHub username)
 ```
 git clone https://github.com/battlesnakeio/starter-snake-go $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
 cd $GOPATH/go/src/github.com/battlesnakeio/starter-snake-go
 git remote set-url origin https://github.com/<your-username>/starter-snake-go
+git push
 ```
 
 ### Running tests locally
@@ -39,26 +45,24 @@ You'll need:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-1) Create a new Go Heroku app using Go buildpack.
-```
+1. [Fork](#fork-this-repo) or clone this repo 
+1. Create a new Go Heroku app using Go buildpack.<br>
+`
 heroku create
-```
-
-2) Push code to Heroku servers.
-```
+`
+1. Push code to Heroku servers.<br>
+`
 git push heroku master
-```
-
-3) Open Heroku app in browser.
-```
+`
+1. Open Heroku app in browser.<br>
+`
 heroku open
-```
+`
 Or go directly via http://APP_NAME.herokuapp.com
-
-4) View/stream server logs.
-```
+1. View/stream server logs.<br>
+`
 heroku logs --tail
-```
+`
 
 ### Questions?
 
